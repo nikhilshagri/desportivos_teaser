@@ -1,0 +1,37 @@
+
+@import 'https://fonts.googleapis.com/css?family=Iceland|Jockey+One|Maiden+Orange|Raleway:600,700';
+    @font-face {
+        font-family: myFirstFont;
+        src: url(../fonts/CODEBold.otf);
+    }
+@media screen and (min-width: 440px) {
+
+    body {
+        width: 100vw;
+        height: 90vh;
+        /*margin: 50px;*/
+        /*border: groove black;*/
+        background: url('../img/Triangle.jpg');
+    }
+    div#main {
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'myFirstFont', sans-serif;
+
+    }
+    h1#heading {
+        font-size: 6vw;
+        font-weight: 700;
+        color: #180756;
+        letter-spacing: 0px;
+    }
+    p#dates {
+        /*font-family: 'myFirstFont', sans-serif;*/
+        font-size: 2.9vw;
+        font-weight: 600;
+        color: #146D7F;
+    }
+}
