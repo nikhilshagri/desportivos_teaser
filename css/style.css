@@ -55,12 +55,6 @@
         background: #FFF;
     }
 
-    #clockdiv > div > div#cover {
-        padding: 10px;
-        background: #00BF96;
-        border-radius: 30px;
-    }
-
     #clockdiv div > span {
         padding: 20px;
         border-radius: 60px;
