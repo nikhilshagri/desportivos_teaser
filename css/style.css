@@ -11,7 +11,9 @@
         height: 90vh;
         /*margin: 50px;*/
         /*border: groove black;*/
-        background: url('../img/Triangle.jpg');
+        background: url('../img/despo_web2.jpg');
+        background-size: 100vw;
+        background-repeat: no-repeat;
     }
     div#main {
         margin-top: 10vh;
