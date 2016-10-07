@@ -1,8 +1,12 @@
 
 @import 'https://fonts.googleapis.com/css?family=Iceland|Jockey+One|Maiden+Orange|Raleway:600,700';
     @font-face {
+        font-family: mySecondFont;
+        src: url(../fonts/2DA5DD_0_0.ttf);
+    }
+    @font-face {
         font-family: myFirstFont;
-        src: url(../fonts/CODEBold.otf);
+        src: url(../fonts/CaslonCp.otf);
     }
 @media screen and (min-width: 440px) {
 
@@ -11,7 +15,7 @@
         height: 90vh;
         /*margin: 50px;*/
         /*border: groove black;*/
-        background: url('../img/Triangle.jpg');
+        background: url('../img/despo_web2.jpg');
     }
     div#main {
         margin-top: 10vh;
@@ -32,14 +36,13 @@
         /*font-family: 'myFirstFont', sans-serif;*/
         font-size: 2.9vw;
         font-weight: 600;
-        color: #146D7F;
-    }
-
+        color: #EEE;
+     }
     #clockdiv {
         margin-top: 30px;
-        font-family: 'myFirstFont', sans-serif;
+        font-family: 'mySecondFont', sans-serif;
         letter-spacing: 0.5px;
-        color: #000;
+        color: #45334a;
         display: flex;
         justify-content: space-between;
         font-weight: 100;
@@ -52,19 +55,19 @@
         margin-right: 20px;
         padding: 10px;
         border-radius: 10px;
-        background: #FFF;
+        background: #000;
     }
 
     #clockdiv > div > div#cover {
-        padding: 10px;
-        background: #00BF96;
+        padding: 1px;
+        background: #00B;
         border-radius: 30px;
     }
 
     #clockdiv div > span {
         padding: 20px;
         border-radius: 60px;
-        background: #00816A;
+        background: #000;
         margin-bottom: 50px;
         /*display: inline-block;*/
     }
