@@ -1,5 +1,7 @@
 
 @import 'https://fonts.googleapis.com/css?family=Iceland|Jockey+One|Maiden+Orange|Raleway:600,700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700';
+
     @font-face {
         font-family: myFirstFont;
         src: url(../fonts/CODEBold.otf);
@@ -11,13 +13,37 @@
     div#main {
         width: 100vw;
         height: 57vw;
-        overflow: scroll;
+        /*overflow: auto;*/
         background: url('../img/despo_web2.jpg');
         background-size: 100vw;
         background-repeat: no-repeat;
-        border: 10px solid black;
-
     }
+
+    footer#navbar-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+
+/*-------------options ------------------------------*/
+
+    ul#options-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    li.options {
+        text-decoration: none;
+        font-size: 1.7vw;
+        letter-spacing: -1px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        /*width: 500px;*/
+        margin: 15px;
+    }
+
+/* --------------------------------------------------*/
+
     h1#heading {
         font-size: 6vw;
         font-weight: 700;
