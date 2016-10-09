@@ -6,7 +6,7 @@
         font-family: myFirstFont;
         src: url(../fonts/CODEBold.otf);
     }
-@media screen and (min-width: 440px) {
+
 
     body {
         background: url('../img/bground_16x9.jpg');
