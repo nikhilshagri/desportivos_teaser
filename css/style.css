@@ -9,14 +9,19 @@
 @media screen and (min-width: 440px) {
 
     body {
+        background: url('../img/bground_16x9.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw;
     }
     div#main {
-        width: 100vw;
-        height: 57vw;
+/*        width: 100vw;
+        height: 57vw;*/
         /*overflow: auto;*/
-        background: url('../img/despo_web2.jpg');
-        background-size: 100vw;
-        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
     }
 
     footer#navbar-bottom {
