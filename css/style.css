@@ -88,6 +88,14 @@
         margin-right: 15px;
     }
 
+    li.sponsors, li.contact {
+        cursor: pointer;
+    }
+
+    div.contact-info {
+        text-align: center;
+    }
+
 /* --------------------------------------------------*/
 
 /*------------- social-media ------------------------------*/
