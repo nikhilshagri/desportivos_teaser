@@ -106,22 +106,31 @@
     }
 /* --------------------------------------------------*/
 
-
-.counter {
+/* ----------------- counter -------------------------*/
+div.counter {
+    max-height: 100px;
+    margin: 20px;
+    margin-bottom: 50px;
     margin-top: 10px;
     text-shadow: 0 1px 5px #fff;
+    display: flex;
+    /*width: 50vw;*/
 }
-.counter .days-wrapper, .counter .hours-wrapper, .counter .minutes-wrapper, .counter .seconds-wrapper {
-    display: inline-block;
-    width: 130px;
-    height: 130px;
+div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
     margin: 0 10px;
     padding-top: 20px;
-    background: #d8583a;
+    background: rgba(255,255,255,0.9);
    font-size: 15px;
     -moz-border-radius: 80px;
     -webkit-border-radius: 80px;
     border-radius: 80px;
+    border: 1px solid black;
+    font-family: myFirstFont, sans-serif;
 }
 .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
     font-size: 60px;
