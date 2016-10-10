@@ -1,6 +1,7 @@
 
 @import 'https://fonts.googleapis.com/css?family=Iceland|Jockey+One|Maiden+Orange|Raleway:600,700';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700';
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,600';
 
     @font-face {
         font-family: myFirstFont;
@@ -26,7 +27,7 @@
 
     footer#navbar-bottom {
         width: 100%;
-        background-color: rgba(255,255,255, 0.7);
+        background-color: rgba(255,255,255, 0.6);
         display: flex;
         justify-content: space-between;
         height: 65px;
@@ -56,10 +57,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    div.counter {
-
+        color: #020737;
     }
 
 /*-------------options ------------------------------*/
@@ -122,14 +120,16 @@ div.counter {
     margin-top: 10px;
     text-shadow: 0 1px 5px #fff;
     display: flex;
-    /*width: 50vw;*/
+    justify-content: space-between;
+    width: 45%;
 }
+
 div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 105px;
+    height: 105px;
     margin: 0 10px;
     padding-top: 20px;
     background: rgba(255,255,255,0.9);
@@ -137,10 +137,21 @@ div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
     -moz-border-radius: 80px;
     -webkit-border-radius: 80px;
     border-radius: 80px;
-    border: 1px solid black;
-    font-family: myFirstFont, sans-serif;
+    color: #E47405;
+    border: 3px solid rgba(228, 116, 5, 0.6);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
 }
+
+span.days, span.minutes, span.hours, span.seconds {
+    letter-spacing: -4px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
+    margin-top: -13px;
     font-size: 60px;
     line-height: 70px;
 }
@@ -177,6 +188,9 @@ div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
         background-size: 100vw;
         background-position: bottom;
     }
+    div.counter {
+        width: auto;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -208,6 +222,14 @@ div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
     li.options:first {
         /*margin: 0px;*/
     }
+
+    div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
+        width: 95px;
+        height: 95px;
+    }
+    div.counter {
+        width: auto;
+    }
 }
 
 @media (max-width: 480px) {
@@ -219,16 +241,29 @@ div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
         background-position: bottom;
     }
 
+
+    ul#options-list {
+        justify-content: space-between;
+        padding: 0px;
+    }
+
     div#text {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     li.options {
-        font-size: 22px;
+        font-size: 18px;
     }
     footer#navbar-bottom {
         justify-content: space-around;
         height: 50px;
+    }
+    div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
+        width: 95px;
+        height: 95px;
+    }
+    div.counter {
+        width: auto;
     }
 }
 
