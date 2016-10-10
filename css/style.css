@@ -2,6 +2,7 @@
 @import 'https://fonts.googleapis.com/css?family=Iceland|Jockey+One|Maiden+Orange|Raleway:600,700';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700';
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,600';
+@import 'https://fonts.googleapis.com/css?family=Oswald';
 
     @font-face {
         font-family: myFirstFont;
@@ -88,10 +89,20 @@
 
     li.sponsors, li.contact {
         cursor: pointer;
+
     }
 
     div.contact-info {
         text-align: center;
+        color: #08105F;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 0px;
+        font-size: 27px;
+    }
+
+    div.contact-info  > p.number {
+        font-size: 28px;
+        margin-top: 10px;
     }
 
 /* --------------------------------------------------*/
