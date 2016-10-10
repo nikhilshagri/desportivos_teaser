@@ -31,6 +31,22 @@
         align-items: center;
     }
 
+    div#border {
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        margin-top: 30px;
+        width: 320px;
+        min-height: 320px;
+        border: 2px solid black;
+        margin-bottom: 30px;
+    }
+
+    img#centre-img {
+        width: 300px;
+        /*height: 500px;*/
+    }
+
 /*-------------options ------------------------------*/
 
     ul#options-list {
